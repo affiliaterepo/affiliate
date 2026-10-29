@@ -1,4 +1,4 @@
-# ClickReels static site — isolated from the repository's main branch.
+# tinyfishy static site — isolated from the repository's main branch.
 # Netlify builds this branch with no external services or API keys.
 [build]
   publish = "clickreels"
