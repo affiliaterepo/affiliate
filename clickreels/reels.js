@@ -1,4 +1,4 @@
-/* ClickReels: original browser-only lessons, no social API or background publishing. */
+/* tinyfishy: original browser-only lessons, no social API or background publishing. */
 (()=>{"use strict";
 const lessons=[
 ["Buyer intent","Clicks are not customers","Ask why a visitor came before judging traffic quality.","Compare page behavior with the promise in the link.","Improve the fit between message and destination."],
