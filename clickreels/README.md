@@ -1,16 +1,16 @@
-# ClickReels — Git-connected Netlify static site
+# tinyfishy — Git-connected Netlify static site
 This is a separate, self-contained marketing-education website within the repository. Existing root files and the `main` branch are not changed by this site.
 
 
 ## One-click Netlify setup
 
-[Deploy ClickReels on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/affiliaterepo/affiliate&branch=clickreels-netlify)
+[Deploy tinyfishy on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/affiliaterepo/affiliate&branch=clickreels-netlify)
 
 This official Netlify deployment flow preselects the GitHub repository and `clickreels-netlify` branch; Netlify might offer to create a copy of the repository. Log in and grant the requested GitHub access yourself, then confirm deployment. The root `netlify.toml` on this branch automatically publishes the `clickreels/` directory. **Do not paste a Netlify personal access token into the GitHub repo or chat.**
 
 A Netlify URL is only real once Netlify finishes publishing. Choose a short site name if available under Netlify project settings.
 
-**Alternative manual import:** Open https://app.netlify.com/start, choose **Import an existing project**, **GitHub**, and repository **affiliaterepo/affiliate**. If prompted, authorize the Netlify GitHub App only for this repo. Choose the production branch **clickreels-netlify**, leave **Base directory** blank, leave **Build command** blank, and set **Publish directory** to **clickreels**. Publish, then choose a short available site name such as **clickreels** (or `reelpath` or `tapreels`).
+**Alternative manual import:** Open https://app.netlify.com/start, choose **Import an existing project**, **GitHub**, and repository **affiliaterepo/affiliate**. If prompted, authorize the Netlify GitHub App only for this repo. Choose the production branch **clickreels-netlify**, leave **Base directory** blank, leave **Build command** blank, and set **Publish directory** to **clickreels**. Publish, then choose a short available site name **tinyfishy** if available.
 
 Once Netlify confirms the exact domain, the intended pages are `/`, `/reels`, `/go`, `/free`, `/privacy`, `/about` and `/disclosure`.
 
@@ -19,3 +19,5 @@ Once Netlify confirms the exact domain, the intended pages are `/`, `/reels`, `/
 **Claims and limits:** These are Instagram-style animated web cards, not downloadable video reels and not posts on Instagram. Outbound buttons are voluntary with affiliate disclosure and no guaranteed visitors, leads, sales or earnings. /go and /free are transparent noindex intermediary resource pages, not forced redirects.
 
 **Safety:** No API tokens or secrets are needed in this repository. Do not put a Netlify personal access token in Git or chat. Verify the live URL and terms after publishing.
+
+**Requested site name:** `tinyfishy`. If Netlify has not already registered that name to your account, set it after your first deployment in Netlify > Site configuration > Change site name. The intended public address is `https://tinyfishy.netlify.app/` ONLY if Netlify confirms availability and a successful deploy; the domain is not yet verified. The GitHub branch and source folder retain their existing names to preserve the automated publishing setup.
